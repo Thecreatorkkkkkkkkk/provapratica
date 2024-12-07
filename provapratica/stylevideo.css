@@ -1,0 +1,117 @@
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto ;
+    background-color: rgb(33, 155, 226);
+    border: 23px;
+    border-color: black;
+    grid-template-columns: 1fr 1fr;
+    
+    padding-top: 600px;
+    padding: 30px;
+    
+    
+   
+    
+   
+
+}
+
+#titulodovideo{
+
+ 
+    color: #333;
+    margin-left: 40px;
+}
+
+.dexter{
+    color: #ffffff;
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#textovideo{
+    display: flex;
+    align-items: justify;
+    font-size: 20px;
+}
+
+#texto{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center
+    
+    
+}
+
+#carossel{
+    background-color: rgb(33, 155, 226);
+    padding: 50px 0;
+    
+    text-align: center;
+    color: #fff;
+}
+
+#play{
+    color: rgb(255, 255, 255);
+}
+
+#cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+.card{
+    margin-left: 50px;
+
+}
+
+#setaesquerda{
+    display: none;
+
+}
+
+#Bruna{
+    display: none;
+}
+
+
+
+.seta{
+    margin-top: 50%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateX(7px);
+    transform: rotate3d(5px);
+    transition: 0.5s;
+
+}
+
+#link1{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    align-items:end;
+    /* Adicionando efeito de transiÃ§Ã��o */
+    
+    &:hover {
+        background-color: blue;
+    }
+    /* Adicionando efeito de hover */
+    /* Adicionando estilo para o link1 */
+
+}
+
+
+    
+   
